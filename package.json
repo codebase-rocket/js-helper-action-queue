@@ -1,0 +1,25 @@
+{
+  "name": "@codebase-rocket/js-helper-action-queue",
+  "description": "Helper Library for adding action queue request in DynamoDb.",
+  "version": "1.0.0",
+  "keywords": [],
+  "private": false,
+  "main": "queue.js",
+  "license": "Private",
+  "author": {
+    "name": "Himanshu"
+  },
+  "contributors": [],
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "peerDependencies": {
+    "js-helper-aws-dynamodb": "npm:@codebase-rocket/js-helper-aws-dynamodb@^1.0.0",
+    "js-helper-debug": "npm:@codebase-rocket/js-helper-debug@^1.0.0",
+    "js-helper-utils": "npm:@codebase-rocket/js-helper-utils@^1.0.0",
+    "js-helper-instance": "npm:@codebase-rocket/js-helper-instance@^1.0.0"
+  },
+  "devDependencies": {}
+}
